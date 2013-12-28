@@ -1,6 +1,6 @@
 describe("Coreisma", function() {
   it("is exposed globally", function() {
-    expect(Coreisma).toNotEqual(undefined)
+    expect(Coreisma).toBeDefined();
   });
 
   it("is extendable", function() {
