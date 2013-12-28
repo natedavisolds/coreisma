@@ -5,6 +5,7 @@
 */
 
 var Coreisma = {
+  version: "0.1.0",
   extend: function(extension) {
     var extensionMethods = (typeof extension === 'function') ? extension(this) : extension;
 
